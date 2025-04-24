@@ -16,7 +16,7 @@ const AboutPage = () => {
       {dataAbout.map((item, index) => (
         <React.Fragment key={index}>
           <AboutSectionOne key={index} {...item} />
-          <AboutSectionTwo moreDetails={item.moreDetails} sizeImage={item.sizeImg} aspectRatio={item.aspectRatio} />
+          <AboutSectionTwo moreDetails={item.moreDetails} sizeImage={item.sizeImg} />
         </React.Fragment>
       ))}
     </>
