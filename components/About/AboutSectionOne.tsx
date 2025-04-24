@@ -66,7 +66,7 @@ const AboutSectionOne = ({ title, paragraph, arraySkills, image, link, sizeImg, 
 
             <div className="relative w-full px-4 lg:w-1/2">
               <Svgs type="blurObj" />
-              <div className="relative mx-auto mt-10 max-h-[33rem] lg:mt-0" style={{ aspectRatio: aspectRatio }}>
+              <div className="relative mx-auto mt-10 max-h-[33rem] lg:mt-0 imgproject" style={{ aspectRatio: aspectRatio }}>
                 {(
                   <Image
                     //@ts-ignore

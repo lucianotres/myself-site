@@ -32,7 +32,7 @@ const AboutSectionTwo = ({ moreDetails, sizeImage, aspectRatio }: Details) => {
         <div className="relative md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center gap-y-8">
             <div className={`w-full px-4 lg:w-1/2 ${largeText()?.one}`}>
-              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0" style={{ aspectRatio: aspectRatio }}>
+              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0 imgproject" style={{ aspectRatio: aspectRatio }}>
                 {(
                   <Image
                     //@ts-ignore
