@@ -11,7 +11,7 @@ const AboutPage = () => {
       <Hero />
       <TitleArea
         title={"Projetos"}
-        text={"Os projetos abaixo são exemplos de melhorias ou novidades tecnológicas que pude levar para as empresas que trabalhei."}
+        text={"Aqui alguns trabalhos realizados ao longo dos anos"}
       />
       {dataAbout.map((item, index) => (
         <React.Fragment key={index}>

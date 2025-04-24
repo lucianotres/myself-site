@@ -62,9 +62,8 @@ const Hero = () => {
                       </p>
                       <p className="text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
                         Trabalho há {age(new Date(2004, 1, 1))} anos com fabricação de software e neste tempo passei por diversas tecnologias e avanços na área.
-                        A satisfação do trabalho é em atender da forma mais eficiente possível, entregar um software objetivo e que agregue valor ao cliente. 
-                        Sempre observando os padrões de qualidade do mercado para garantir a evolução do código e manutenção do software, afinal sabemos que um sistema nunca está 100% concluído, sempre deve estar aberto a melhorias.
-                        Por estar há muito tempo no mercado aprendi que é necessário atualizar-se constantemente. Me considero autodidata, apesar de ter formação na área, o conhecimento e skills para o dia a dia são construídos com a experiência adquirida ao longo do tempo.
+                        A satisfação do trabalho é em atender da forma mais eficiente possível, entregar um software objetivo e que agregue valor ao cliente e sempre observando os padrões de qualidade do mercado para garantir a evolução do código e manutenção do software.
+                        Por estar há muito tempo no mercado aprendi que é necessário atualizar-se constantemente. Considero-me autodidata, apesar de ter formação na área, o conhecimento e skills para o dia a dia são construídos com a experiência adquirida ao longo do tempo.
                         Iniciei a jornada da minha carreira com aplicações ERP tradicionais, lidando com aplicativos Windows tradicionais e banco de dados, tempo onde internet ainda era novidade.
                         Posteriormente avancei para desenvolvimento de aplicativos embarcados em dispositivos como Palm OS e PDAs com sistemas Windows CE/Mobile. Foi um momento muito interessante e de grande conhecimento, visto que era algo pioneiro para época.
                         Neste momento entrei de vez para a Internet, desenvolvendo APIs para comunicação entre os aplicativos e posteriormente para tradução de aplicativos para WEB. 
