@@ -1,0 +1,12 @@
+services:
+  next-app:
+    container_name: next-app
+    build:
+      context: ./
+      target: production
+      dockerfile: Dockerfile
+    command: cp -R /app/out /
+    volumes:
+        - ./out:/out
+    ports:
+      - "3000:3000"
