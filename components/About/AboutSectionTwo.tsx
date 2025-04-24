@@ -13,10 +13,9 @@ interface Details {
     width: number;
     height: number;
   };
-  aspectRatio: string;
 }
 
-const AboutSectionTwo = ({ moreDetails, sizeImage, aspectRatio }: Details) => {
+const AboutSectionTwo = ({ moreDetails, sizeImage }: Details) => {
   let flex = { one: "lg:flex-1", two: "lg:flex-1" };
 
   const largeText = (): { one: string; two: string } => {
@@ -32,7 +31,7 @@ const AboutSectionTwo = ({ moreDetails, sizeImage, aspectRatio }: Details) => {
         <div className="relative md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center gap-y-8">
             <div className={`w-full px-4 lg:w-1/2 ${largeText()?.one}`}>
-              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0 imgproject" style={{ aspectRatio: aspectRatio }}>
+              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0 imgproject">
                 {(
                   <Image
                     //@ts-ignore
