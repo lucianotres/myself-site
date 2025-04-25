@@ -14,9 +14,10 @@ interface About {
     width: number;
     height: number;
   };
+  aspectRatio: string;
 }
 
-const AboutSectionOne = ({ title, paragraph, arraySkills, image, link, sizeImg }: About) => {
+const AboutSectionOne = ({ title, paragraph, arraySkills, image, link, sizeImg, aspectRatio }: About) => {
   const firstPartArray = arraySkills?.slice(0, (arraySkills.length + 1) / 2);
   const secondPartArray = arraySkills?.slice((arraySkills.length + 1) / 2);
 
@@ -65,7 +66,7 @@ const AboutSectionOne = ({ title, paragraph, arraySkills, image, link, sizeImg }
 
             <div className="relative w-full px-4 lg:w-1/2">
               <Svgs type="blurObj" />
-              <div className="relative mx-auto mt-10 max-h-[33rem] lg:mt-0">
+              <div className="relative mx-auto mt-10 max-h-[33rem] lg:mt-0" style={{ aspectRatio: aspectRatio }}>
                 {(
                   <Image
                     //@ts-ignore

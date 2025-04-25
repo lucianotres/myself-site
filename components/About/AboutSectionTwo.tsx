@@ -9,17 +9,18 @@ interface Details {
     titles: string[];
     texts: string[];
   };
-  sizeImage: {
+  sizeImg2: {
     width: number;
     height: number;
   };
+  aspectRatio2: string;
 }
 
-const AboutSectionTwo = ({ moreDetails, sizeImage }: Details) => {
+const AboutSectionTwo = ({ moreDetails, sizeImg2, aspectRatio2 }: Details) => {
   let flex = { one: "lg:flex-1", two: "lg:flex-1" };
 
   const largeText = (): { one: string; two: string } => {
-    if (sizeImage.width < sizeImage.height) {
+    if (sizeImg2.width < sizeImg2.height) {
       flex.two = "lg:flex-2";
       return flex;
     }
@@ -31,7 +32,7 @@ const AboutSectionTwo = ({ moreDetails, sizeImage }: Details) => {
         <div className="relative md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center gap-y-8">
             <div className={`w-full px-4 lg:w-1/2 ${largeText()?.one}`}>
-              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0">
+              <div className="relative mx-auto mb-5 max-h-[33rem]  lg:my-0" style={{ aspectRatio: aspectRatio2 }}>
                 {(
                   <Image
                     //@ts-ignore
@@ -39,8 +40,8 @@ const AboutSectionTwo = ({ moreDetails, sizeImage }: Details) => {
                     loading="lazy"
                     quality={75}
                     alt="about-image"
-                    width={sizeImage.width}
-                    height={sizeImage.height}
+                    width={sizeImg2.width}
+                    height={sizeImg2.height}
                     className="mx-auto max-w-full object-contain lg:mr-0"
                   />
                 )}
