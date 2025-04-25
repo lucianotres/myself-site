@@ -1,14 +1,13 @@
 export const dataAbout = [
   {
     title: "ERP para provedor de internet",
-    paragraph:
-      "Manutenção e atualizações em sistema legado de empresa de internet. O software foi desenvolvido internamente pela equipe da empresa e conforme o seu crescimento necessitou de melhorias e novas funcionalidades. Trata-se de um software ERP para cadastros, controles administrativos, ordens de serviço, estoque, financeiro e faturamento. Abrange todas as áreas da empresa e voltado para seu uso exclusivo.",
+    paragraph: "Manutenção e atualizações em sistema legado de empresa de internet. O software foi desenvolvido internamente pela equipe da empresa e conforme o seu crescimento necessitou de melhorias e novas funcionalidades. Trata-se de um software ERP para cadastros, controles administrativos, ordens de serviço, estoque, financeiro e faturamento. Abrange todas as áreas da empresa e voltado para seu uso exclusivo.",
     arraySkills: ["Delphi", "XML", "PostgreSQL", "Radius", "Mikrotik API"],
     image: "/images/erp1.png",
     link: "",
     sizeImg: {
-      width: 800,
-      height: 616,
+      width: 830,
+      height: 646,
     },
     moreDetails: {
       image: "/images/erp2.png",
@@ -19,5 +18,42 @@ export const dataAbout = [
         "Tanto a empresa se beneficiou com meu trabalho prestado sob este sistema quanto eu mesmo. Este foi um período de muito aprendizado em relação ao mundo de redes de computadores e como isto se aplica para o funcionamento da internet. Bem como solidou muito meu conhecimento na linguagem Delphi e em banco de dados relacional PostgreSQL. ",
       ],
     },
+  },
+  {
+    title: "Migração do ERP para Web",
+    paragraph: "Com avanço das operações da empresa de internet, houve a necessidade de migrar o sistema para web. Isso se dava, pois, a operação estava distribuída e precisava de um acesso rápido e dinâmico, sem a dependência do sistema operacional Windows. Para cumprir esta missão foi escolhido a plataforma .NET e assim implementando boa parte do sistema em HTML5 / CSS3 com recursos como Blazor (WASM) e Javascript para integrações como o Google Maps.",
+    arraySkills: ["HTML 5", "CSS 3", "C#", "Blazor", "Razor", "Javascript", "ASP.net"],
+    image: "/images/isp-tela1.png",
+    sizeImg: {
+      width: 1230,
+      height: 916
+    },
+    moreDetails: {
+      image: "/images/isp-tela2.png",
+      titles: ["Novos desafios", "Reformulação de processos", "Integrações com aplicativos externos"],
+      texts: [
+        "No início a GUI do sistema web estava sendo desenvolvida em Razor, mas surgia uma nova opção chamada Blazor, prometendo uma interface muito mais conectada e dinâmica, tirando proveito de recursos como WebSockets e WASM. Necessitou novo aprendizado, mas tornou-se certeiro a escolha, devolvendo o prometido e se tornando o carro chefe do projeto. Cliente final (usuários da empresa) aprovaram categoricamente a nova usabilidade, melhorando consideravelmente a produtividade.",
+        "A nova interface possibilitou a redefinição de processos. Participei junto com as equipes da empresa em reuniões em que discutimos formas de melhorar os procedimentos atuais e torná-los mais simples e eficientes. Agora o sistema permite agregar melhor os modelos e abre mais possibilidades de acessos especializados com toda a dinâmica de recursos na WEB.",
+        "Foi incluído também recursos externos como API do Google Maps para gerenciar localizações de ativos da empresa em rua, bem como identificação de clientes e outros para agilizar o atendimento. Em se tratando de empresa de rede de computadores, muitos equipamentos oferecem APIs para administração, estas que foram também aproveitadas no sistema."
+      ]
+    }
+  },
+  {
+    title: "Microsserviços e Docker ",
+    paragraph: "O sistema ERP migrado para Web estava ficando maior, demandando novas funcionalidades. Muitas destas funcionalidades não eram apenas visuais, mas sim funcionais executadas em segundo plano. Para melhor atender estas necessidades, optei por migrar o sistema para containers Docker, separando-o em módulos e aplicando padrões de microsserviços.",
+    arraySkills: ["Docker", "Linux", "Microservices", "API", "NET Core"],
+    image: "/images/docker1.png",
+    sizeImg: {
+      width: 930,
+      height: 669
+    },
+    moreDetails: {
+      image: "/images/Microservices-Architecture.png",
+      titles: ["O desafio", "Benefícios"],
+      texts: [
+        "Foi necessário aprender uma nova arquitetura de desenvolvimento, readaptar o sistema para esta e integrar de forma a trabalhar em harmonia. Isto trouxe grande aprendizado, principalmente em operações em sistema Linux, que já era de meu conhecimento, mas que foi aprofundado.",
+        "O fato de separar funcionalidades em serviços específicos, permitiu agilizar a integração de outros sistemas e facilitou imensamente o reparo de problemas detectados. Afinal, o downtime fica reduzido apenas ao serviço afetado e não mais ao sistema todo. Outro ganho foi a possibilidade de escalar conforme a demanda, recursos mais utilizados podem ser facilmente aumentados. "
+      ]
+    }
   }
 ];
