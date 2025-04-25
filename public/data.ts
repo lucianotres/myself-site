@@ -45,8 +45,8 @@ export const dataAbout = [
       image: "/images/isp-tela2.png",
       titles: ["Novos desafios", "Reformulação de processos", "Integrações com aplicativos externos"],
       texts: [
-        "No início a GUI do sistema web estava sendo desenvolvida em Razor, mas surgia uma nova opção chamada Blazor, prometendo uma interface muito mais conectada e dinâmica, tirando proveito de recursos como WebSockets e WASM. Necessitou novo aprendizado, mas tornou-se certeiro a escolha, devolvendo o prometido e se tornando o carro chefe do projeto. Cliente final (usuários da empresa) aprovaram categoricamente a nova usabilidade, melhorando consideravelmente a produtividade.",
-        "A nova interface possibilitou a redefinição de processos. Participei junto com as equipes da empresa em reuniões em que discutimos formas de melhorar os procedimentos atuais e torná-los mais simples e eficientes. Agora o sistema permite agregar melhor os modelos e abre mais possibilidades de acessos especializados com toda a dinâmica de recursos na WEB.",
+        "No início a GUI do sistema web estava sendo desenvolvida em Razor, mas surgia uma nova opção chamada Blazor, prometendo uma interface muito mais conectada e dinâmica, tirando proveito de recursos como WebSockets e WASM. Isto demandou novo aprendizado, mas tornou-se certeiro a escolha, devolvendo o prometido e se tornando o carro chefe do projeto. Cliente final, usuários da empresa, aprovaram categoricamente a nova usabilidade, melhorando consideravelmente a produtividade.",
+        "A nova interface possibilitou a redefinição de processos. Participei junto com as equipes da empresa em reuniões em que discutimos formas de melhorar os procedimentos atuais e torná-los mais simples e eficientes. Agora o sistema permite agregar melhor os modelos de negócio e abre mais possibilidades de acessos especializados com toda a dinâmica de recursos Web.",
         "Foi incluído também recursos externos como API do Google Maps para gerenciar localizações de ativos da empresa em rua, bem como identificação de clientes e outros para agilizar o atendimento. Em se tratando de empresa de rede de computadores, muitos equipamentos oferecem APIs para administração, estas que foram também aproveitadas no sistema."
       ]
     }
@@ -78,7 +78,7 @@ export const dataAbout = [
   },
   {
     title: "App para smartphone",
-    paragraph: "Hoje em dia todo o serviço ofertado ao público demanda a existência de um aplicativo para smartphone. Dentro da tecnologia .NET dei inicio ao desenvolvimento de um app multiplataforma em Xamarin, mas com a evolução da tecnologia atualizei o mesmo para MAUI. Trata-se de um app ao cliente final para acesso ao seu cadastro e controle financeiro e também um app para uso na área de suporte técnico em rua com dados de ordens de serviço.",
+    paragraph: "Hoje em dia todo o serviço ofertado ao público demanda a existência de um aplicativo para smartphone. Dentro da tecnologia .NET dei inicio ao desenvolvimento de um app multiplataforma em Xamarin, mas com a evolução da tecnologia atualizei o mesmo para MAUI. Trata-se de um app ao cliente final para acesso ao seu cadastro e controle financeiro. Também desenvolvi um app para uso na área de suporte técnico em rua com dados de ordens de serviço.",
     arraySkills: ["C#", "MAUI", "Android", "iOS", "API"],
     image: "/images/app-mobile1.png",
     link: "",
@@ -97,7 +97,7 @@ export const dataAbout = [
       titles: ["Por que MAUI?", "Desenvolvimento nativo", "Integração com ERP"],
       texts: [
         "Tanto o Xamarin quanto o MAUI foram escolhidos por serem da plataforma .NET, o que reduziu a curva de aprendizagem, mas também por oferecerem suporte as duas maiores plataformas do mercado, Android e iOS. Essa facilidade agilizou o desenvolvimento e manutenção do app, fornecendo rapidamente o valor esperado pelo cliente.",
-        "Apesar de usar MAUI para o desenvolvimento do app, tive de realizar desenvolvimento nativo em Android para ter acesso a APIs mais especificas no app de ordem de serviços. Foi necessário integrar recursos de acesso à rede, principalmente via Wi-Fi, para facilitar configuração de equipamentos através do app. Outros acessos pontais como localização GPS e coleta de assinatura digital via toque em tela, semelhante aos apps de entregas de encomendas.",
+        "Apesar de usar MAUI para o desenvolvimento do app, tive de realizar desenvolvimento nativo em Android para ter acesso a APIs mais especificas no app de ordem de serviço. Foi necessário integrar recursos de acesso à rede, principalmente via Wi-Fi, para facilitar configuração de equipamentos através do app. Implementado outros acessos como localização GPS e coleta de assinatura digital via toque em tela, semelhante aos apps de entregas de encomendas.",
         "Claramente os apps desenvolvidos demandavam de dados armazenados nos sistemas já existentes. Para isso desenvolvi uma API para comunicação dos dados e também o armazenamento de partes no smartphone para operação mesmo em situações offline."
       ]
     }

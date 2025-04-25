@@ -11,7 +11,7 @@ const AboutPage = () => {
       <Hero />
       <TitleArea
         title={"Projetos"}
-        text={"Aqui alguns dos trabalhos realizados ao longo dos anos"}
+        text={"Aqui alguns dos trabalhos realizados mais importantes e recentes."}
       />
       {dataAbout.map((item, index) => (
         <React.Fragment key={index}>
@@ -19,6 +19,10 @@ const AboutPage = () => {
           <AboutSectionTwo moreDetails={item.moreDetails} sizeImg2={item.sizeImg2} aspectRatio2={item.aspectRatio2} />
         </React.Fragment>
       ))}
+      <TitleArea
+        title={""}
+        text={"Muitos outros projetos foram realizados ao longo do tempo, mas que hoje em dia já se tornaram obsoletos."}
+      />
     </>
   );
 };
