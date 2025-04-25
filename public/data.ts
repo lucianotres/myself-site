@@ -79,7 +79,7 @@ export const dataAbout = [
   {
     title: "App para smartphone",
     paragraph: "Hoje em dia todo o serviço ofertado ao público demanda a existência de um aplicativo para smartphone. Dentro da tecnologia .NET dei inicio ao desenvolvimento de um app multiplataforma em Xamarin, mas com a evolução da tecnologia atualizei o mesmo para MAUI. Trata-se de um app ao cliente final para acesso ao seu cadastro e controle financeiro e também um app para uso na área de suporte técnico em rua com dados de ordens de serviço.",
-    arraySkills: ["Docker", "Linux", "Microservices", "API", "NET Core", "MongoDB"],
+    arraySkills: ["C#", "MAUI", "Android", "iOS", "API"],
     image: "/images/app-mobile1.png",
     link: "",
     sizeImg: {
@@ -94,7 +94,7 @@ export const dataAbout = [
     aspectRatio2: "2/4",
     moreDetails: {
       image: "/images/app-mobile2.png",
-      titles: ["Por que MAUI", "Desenvolvimento nativo", "Integração com ERP"],
+      titles: ["Por que MAUI?", "Desenvolvimento nativo", "Integração com ERP"],
       texts: [
         "Tanto o Xamarin quanto o MAUI foram escolhidos por serem da plataforma .NET, o que reduziu a curva de aprendizagem, mas também por oferecerem suporte as duas maiores plataformas do mercado, Android e iOS. Essa facilidade agilizou o desenvolvimento e manutenção do app, fornecendo rapidamente o valor esperado pelo cliente.",
         "Apesar de usar MAUI para o desenvolvimento do app, tive de realizar desenvolvimento nativo em Android para ter acesso a APIs mais especificas no app de ordem de serviços. Foi necessário integrar recursos de acesso à rede, principalmente via Wi-Fi, para facilitar configuração de equipamentos através do app. Outros acessos pontais como localização GPS e coleta de assinatura digital via toque em tela, semelhante aos apps de entregas de encomendas.",
