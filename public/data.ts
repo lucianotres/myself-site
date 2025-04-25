@@ -24,6 +24,7 @@ export const dataAbout = [
     paragraph: "Com avanço das operações da empresa de internet, houve a necessidade de migrar o sistema para web. Isso se dava, pois, a operação estava distribuída e precisava de um acesso rápido e dinâmico, sem a dependência do sistema operacional Windows. Para cumprir esta missão foi escolhido a plataforma .NET e assim implementando boa parte do sistema em HTML5 / CSS3 com recursos como Blazor (WASM) e Javascript para integrações como o Google Maps.",
     arraySkills: ["HTML 5", "CSS 3", "C#", "Blazor", "Razor", "Javascript", "ASP.net"],
     image: "/images/isp-tela1.png",
+    link: "",
     sizeImg: {
       width: 1230,
       height: 916
@@ -39,10 +40,11 @@ export const dataAbout = [
     }
   },
   {
-    title: "Microsserviços e Docker ",
+    title: "Microsserviços e Docker",
     paragraph: "O sistema ERP migrado para Web estava ficando maior, demandando novas funcionalidades. Muitas destas funcionalidades não eram apenas visuais, mas sim funcionais executadas em segundo plano. Para melhor atender estas necessidades, optei por migrar o sistema para containers Docker, separando-o em módulos e aplicando padrões de microsserviços.",
     arraySkills: ["Docker", "Linux", "Microservices", "API", "NET Core"],
     image: "/images/docker1.png",
+    link: "",
     sizeImg: {
       width: 930,
       height: 669
