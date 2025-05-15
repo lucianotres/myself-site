@@ -138,3 +138,7 @@
   overflow: hidden;
   box-shadow: #555 1px 1px 12px 2px;
 }
+
+.txt-j {
+  text-align: justify;
+}

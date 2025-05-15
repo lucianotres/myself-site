@@ -56,18 +56,21 @@ const Hero = () => {
                   <div className="overflow-hidden rounded-lg shadow-xl dark:bg-primary dark:bg-opacity-10 md:flex">
                     <div className="p-8">
                       <p className="text-xl font-bold md:text-2xl">Sobre Luciano Tres</p>
-                      <p className="my-5 text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
+                      <p className="txt-j my-5 text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
                         Sou um profissional desenvolvedor de software especializado em tecnologias Microsoft .NET.
-                        <br />
                       </p>
-                      <p className="text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
-                        Trabalho há {age(new Date(2004, 1, 1))} anos com fabricação de software e neste tempo passei por diversas tecnologias e avanços na área.
-                        A satisfação do trabalho é em atender da forma mais eficiente possível, entregar um software objetivo e que agregue valor ao cliente e sempre observando os padrões de qualidade do mercado para garantir a evolução do código e manutenção do software.
-                        Por estar há muito tempo no mercado aprendi que é necessário atualizar-se constantemente. Considero-me autodidata, apesar de ter formação na área, o conhecimento e skills para o dia a dia são construídos com a experiência adquirida ao longo do tempo.
-                        Iniciei a jornada da minha carreira com aplicações ERP tradicionais, lidando com aplicativos Windows tradicionais e banco de dados, tempo em que internet ainda era novidade.
-                        Posteriormente avancei para desenvolvimento de aplicativos embarcados em dispositivos como Palm OS e PDAs com sistemas Windows CE/Mobile. Foi um momento muito interessante e de grande conhecimento, visto que era algo pioneiro para época.
-                        Neste momento entrei de vez para a Internet, desenvolvendo APIs para comunicação entre os aplicativos e posteriormente para tradução de aplicativos para WEB. 
-                        Por fim trabalhei junto a provedor de internet onde aprendi mais sobre infraestrutura de redes e evolui o desenvolvimento de softwares para área mobile e WEB.
+                      <p className="txt-j my-5 text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
+                        Aficionado por computação fui apresentado ao livro “Dominando o Delphi 5 - A Bíblia”, estopim que me levou ao mundo de desenvolvimento de software aos 16 anos (há {age(new Date(2004, 1, 1))} anos). Do estágio em sistemas ERP ao mundo Web e aplicações multiplataformas e integradas.
+                        Evolução muito embasada na plataforma Microsoft .NET que me permitiu reescrever aplicações tradicionais para a Web, abrindo porta para integrações com aplicativos iOS e Android.
+                        Impactando positivamente na experiencia de usuários internos e externos da empresa.
+                      </p>
+                      <p className="txt-j my-5 text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
+                        Usando o jargão atual, sou Desenvolvedor Full Stack em C#, graduado em Análise e Desenvolvimento de Sistemas pela Uniftec.
+                        Participei da criação de diversos aplicativos em linguagem Delphi e C#, mas o foco ficou em implementações ERP e sistemas para provedores de internet, em todas as fases de projeto.
+                      </p>
+                      <p className="txt-j my-5 text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
+                        Os anos de experiencia e prática me fizeram entender a importância de manter as boas práticas de desenvolvimento e o controle de qualidade do código.
+                        Entregar soluções as demandas dos clientes e com a melhor performance possível é iminente, mas a qualidade está na continuidade, esta que só terá sucesso com a qualidade do que foi escrito.
                       </p>
                     </div>
                   </div>

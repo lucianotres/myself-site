@@ -55,7 +55,7 @@ const AboutSectionTwo = ({ moreDetails, sizeImg2, aspectRatio2 }: Details) => {
                       <h3 className="mb-4 text-xl font-bold text-black opacity-90 dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                         {item}
                       </h3>
-                      <p className="text-base leading-relaxed text-body-color dark:text-dark-mode sm:text-lg sm:leading-relaxed">
+                      <p className="txt-j text-base leading-relaxed text-body-color dark:text-dark-mode sm:text-lg sm:leading-relaxed">
                         {moreDetails.texts[index]}
                       </p>
                     </div>
